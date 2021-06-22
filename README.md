@@ -93,7 +93,7 @@ ___
 
 <div align="left">
   <h1 id="rede-social">📱 Minhas redes sociais</h1>
-  <p> Eu me chamo Tiago Gonçalves, abaixo deixo os links das minhas principais redes na qual participo.
+  <p> Eu me chamo Rodrigo Andrade, abaixo deixo os links das minhas principais redes na qual participo.
   </p>
 
   [![](https://img.shields.io/badge/-Github-434140)](https://github.com/RodrigoAndrade085)
