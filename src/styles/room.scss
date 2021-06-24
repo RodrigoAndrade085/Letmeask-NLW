@@ -13,10 +13,19 @@
       > img {
         max-height: 45px;
       }
+
+      > div {
+        display: flex;
+        gap: 16px;
+
+        button {
+          height: 40px;
+        }
+      }
     }
   }
 
-  main{
+  main {
     max-width: 800px;
     margin: 0 auto;
 
@@ -33,10 +42,10 @@
 
       span {
         margin-left: 16px;
-        background-color: #e559f9;
+        background: #e559f9;
         border-radius: 9999px;
         padding: 8px 16px;
-        color: #fff;
+        color: #FFF;
         font-weight: 500;
         font-size: 14px;
       }
@@ -78,11 +87,11 @@
           }
         }
 
-        > span{
+        > span {
           font-size: 14px;
           color: #737380;
           font-weight: 500;
-          
+
           button {
             background: transparent;
             border: 0;
@@ -95,6 +104,9 @@
         }
       }
     }
-  }
 
+    .question-list {
+      margin-top: 32px;
+    }
+  }
 }

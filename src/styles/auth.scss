@@ -5,12 +5,14 @@
 
   aside {
     flex: 7;
+
     background: #835afd;
-    color: #fff;
+    color: #FFF;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     padding: 120px 80px;
 
     img {
@@ -31,7 +33,7 @@
     }
   }
 
-  main { 
+  main {
     flex: 8;
 
     padding: 0 32px;
@@ -44,9 +46,9 @@
   .main-content {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
     width: 100%;
     max-width: 320px;
+    align-items: stretch;
     text-align: center;
 
     > img {
@@ -61,14 +63,14 @@
 
     form {
       input {
-        height: 58px;
+        height: 50px;
         border-radius: 8px;
         padding: 0 16px;
-        background: #fff;
+        background: #FFF;
         border: 1px solid #a8a8b3;
       }
 
-      button {
+      button { 
         margin-top: 16px;
       }
 
@@ -79,7 +81,7 @@
 
     p {
       font-size: 14px;
-      color: #737388;
+      color: #737380;
       margin-top: 16px;
 
       a {
@@ -94,17 +96,18 @@
     border-radius: 8px;
     font-weight: 500;
     background: #ea4335;
-    color: #fff;
-    
+    color: #FFF;
+
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 
     cursor: pointer;
     border: 0;
+
     transition: filter 0.2s;
 
-    img { 
+    img {
       margin-right: 8px;
     }
 
@@ -115,12 +118,12 @@
 
   .separator {
     font-size: 14px;
-    color: #a8a8be;
+    color: #a8a8b3;
 
     margin: 32px 0;
     display: flex;
     align-items: center;
- 
+
     &::before {
       content: '';
       flex: 1;
